@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+	<section class="aboniments">
+		<h2 class="aboniments__title">Абониметы</h2>
+		<ul class="aboniments__terms term">
+			<li class="term__item term__item--current" data-period="1month">1 месяц</li>
+			<li class="term__item" data-period="6months">6 месяцев</li>
+			<li class="term__item" data-period="12months">12 месяцев</li>
+		</ul>
+		<ul class="rates" data-period="1month">
+			<li class="rates__item rate rate--primary">
+				<h3 class="rate__title">С тренером</h3>
+				<span class="rate__time">12 занятий</span>
+				<span class="rate__price rate__price--primary">5000 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+			<li class="rates__item rate">
+				<h3 class="rate__title">Дневной</h3>
+				<span class="rate__time">С 8:00 до 17:00</span>
+				<span class="rate__price">1700 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+			<li class="rates__item rate">
+				<h3 class="rate__title">Полный день</h3>
+				<span class="rate__time">С 8:00 до 22:00</span>
+				<span class="rate__price">2700 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+		</ul>
+		<ul class="rates vissualy-hidden" data-period="6months">
+			<li class="rates__item rate rate--primary">
+				<h3 class="rate__title">С тренером</h3>
+				<span class="rate__time">12 занятий</span>
+				<span class="rate__price">35000 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+			<li class="rates__item rate">
+				<h3 class="rate__title">Дневной</h3>
+				<span class="rate__time">С 8:00 до 17:00</span>
+				<span class="rate__price">10200 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+			<li class="rates__item rate">
+				<h3 class="rate__title">Полный день</h3>
+				<span class="rate__time">С 8:00 до 22:00</span>
+				<span class="rate__price">16200 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+		</ul>
+		<ul class="rates vissualy-hidden" data-period="12months">
+			<li class="rates__item rate rate--primary">
+				<h3 class="rate__title">С тренером</h3>
+				<span class="rate__time">12 занятий</span>
+				<span class="rate__price">60000 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+			<li class="rates__item rate">
+				<h3 class="rate__title">Дневной</h3>
+				<span class="rate__time">С 8:00 до 17:00</span>
+				<span class="rate__price">20400 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+			<li class="rates__item rate">
+				<h3 class="rate__title">Полный день</h3>
+				<span class="rate__time">С 8:00 до 22:00</span>
+				<span class="rate__price">32400 ₽</span>
+				<button class="button" type="button">Купить абонимент</button>
+			</li>
+		</ul>
+	</section>
+	<script src="src/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+  }
+
+ .aboniments {
+	font-family: "Alumni sans";
+	background-color: #F8F9FC;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .aboniments__title {
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 54px;
+	color: #102654;
+ }
+.aboniments__terms {
+	padding: 0;
+	list-style: none;
+}
+
+.term {
+	display: flex;
+	flex-direction: row;
+	row-gap: 50px;
+}
+
+.term__item {
+	padding: 0 25px;
+	padding-bottom: 20px;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #10265480;
+	border-bottom: 2px #78787833 solid;
+}
+
+.term__item--current{
+	color:#102654;
+	border-bottom: 2px #D10A42 solid;
+	transition: all 1s ease-out;
+}
+
+.rates {
+    display: flex;
+    padding: 0;
+    gap: 40px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.rates__item{
+	width: 360px;
+	height: 447px;
+	background: #FFFFFF;
+	padding: 65px;
+	gap: 40px;
+}
+
+.rate{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rate__title {
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 26px;
+	color:#102654;
+}
+
+.rate__time{
+	font-family: "Roboto Condensed";
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color:#102654;
+}
+
+.rate__price {
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 90px;
+	color:#102654;
+}
+
+.button {
+	width: 230px;
+	height: 66px;
+	border: 2px #102654 solid;
+	padding: 27px 44px;
+	background-color:#FFFFFF;
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	color:#102654;
+}
+
+.rate--primary {
+	border: 10px solid #003EB7;
+	border-image: linear-gradient(to right bottom, #ED0233, #003EB7);
+	border-image-slice: 1;
+}
+
+.rate__price--primary{
+	color: #103AAE;
+}
+
+.vissualy-hidden {
+	display: none;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+
+}
+
